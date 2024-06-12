@@ -13,7 +13,6 @@ html {
 nav {
   background-color: #1f2937;
 }
-/* Basis styling voor project cards */
 .project-card {
   display: flex;
   flex-direction: column;
@@ -22,8 +21,8 @@ nav {
 
 .project-card img {
   width: 100%;
-  height: 200px; /* Stel de gewenste hoogte in */
-  object-fit: cover; /* Zorgt ervoor dat de afbeelding de container vult zonder de verhoudingen te vervormen */
+  height: 200px;
+  object-fit: cover;
 }
 
 .project-card .p-5 {
@@ -37,7 +36,6 @@ nav {
   margin-top: auto;
 }
 
-/* Media queries voor mobiele apparaten */
 @media (max-width: 640px) {
   .grid-cols-1 {
       grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -55,7 +53,6 @@ nav {
       grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
-/* Voeg deze aangepaste CSS toe aan je Tailwind CSS bestand of een apart CSS bestand */
 @keyframes gradient-border {
   0% {
     border-color: #0846b1;
